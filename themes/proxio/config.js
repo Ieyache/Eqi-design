@@ -2,15 +2,15 @@
  * 另一个落地页主题
  */
 const CONFIG = {
-  PROXIO_WELCOME_COVER_ENABLE: true, //是否显示页面进入的欢迎文字
+  PROXIO_WELCOME_COVER_ENABLE: false, //是否显示页面进入的欢迎文字
   PROXIO_WELCOME_TEXT: '欢迎来到此网站，点击任意位置进入', // 欢迎文字，留空则不启用
 
   // 英雄区块导航
   PROXIO_HERO_ENABLE: true, // 开启英雄区
-  PROXIO_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-  PROXIO_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+  PROXIO_HERO_TITLE_1: '我们专注于宠物与人的共生空间设计', // 英雄区文字
+  PROXIO_HERO_TITLE_2: '让陪伴不再局限于角落，而真正融入家的每一处动线', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  PROXIO_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
+  PROXIO_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
   PROXIO_HERO_BUTTON_1_URL:
     'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
@@ -63,7 +63,7 @@ const CONFIG = {
   PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
 
   // 首页生涯区块
-  PROXIO_CAREER_ENABLE: true, // 区块开关
+  PROXIO_CAREER_ENABLE: false, // 区块开关
   PROXIO_CAREER_TITLE: '生涯',
   PROXIO_CAREER_TEXT: '以下是我的职业生涯',
 
@@ -91,7 +91,7 @@ const CONFIG = {
   PROXIO_TESTIMONIALS_TITLE: '用户反馈',
   PROXIO_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
   PROXIO_TESTIMONIALS_TEXT_2:
-    '数千位站长选择用NotionNext搭建他们的网站,通过帮助手册、交流社群以及技术咨询，大家成功上线了自己的网站',
+    '越来越多的宠物家庭，选择与我们一起打造真正属于“你和它”的理想空间。从小型角落改造到全屋共生设计，我们用专业和共情陪伴每一次改变的开始。',
 
   // 用户测评处的跳转按钮
   PROXIO_TESTIMONIALS_BUTTON_URL: '/about',
@@ -176,7 +176,7 @@ const CONFIG = {
   ],
 
   // 关于作者区块
-  PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
+  PROXIO_ABOUT_ENABLE: false, // 关于作者区块区块开关
   PROXIO_ABOUT_TITLE: '关于作者',
   PROXIO_ABOUT_TEXT_1: 'I am an Architect Turned Into a Product Designer',
   PROXIO_ABOUT_TEXT_2:
@@ -197,36 +197,36 @@ const CONFIG = {
   // 横向滚动文字
   PROXIO_BRANDS_ENABLE: true, // 滚动文字
   PROXIO_BRANDS: [
-    'Web Design',
-    'Logo Design',
-    'Mobile App Design',
-    'Product Design'
+    '宠物友好空间设计',
+    '人宠共生的生活美学',
+    '每一处角落都为生命留白',
+    '完全定制 · 为你和TA而生'
   ],
 
-  PROXIO_FOOTER_SLOGAN: '我们通过技术为品牌和公司创造数字体验。',
+  PROXIO_FOOTER_SLOGAN: '我们用设计，让每一个生命在家的每一寸都被温柔对待。',
 
   // 页脚三列菜单组
   // 页脚菜单
   PROXIO_FOOTER_LINKS: [
     {
-      name: '友情链接',
+      name: '关于我',
       menus: [
         {
-          title: 'Tangly的学习笔记',
+          title: '品牌介绍',
           href: 'https://blog.tangly1024.com'
         },
         {
-          title: 'NotionNext',
+          title: '设计理念',
           href: 'https://www.tangly1024.com'
         }
       ]
     },
     {
-      name: '开发者',
+      name: '联系我',
       menus: [
-        { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
+        { title: '微信公众号', href: 'https://github.com/tangly1024/NotionNext' },
         {
-          title: '开发帮助',
+          title: '小红书',
           href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
         },
         {
@@ -234,11 +234,11 @@ const CONFIG = {
           href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
         },
         {
-          title: '技术讨论',
+          title: 'bilibili',
           href: 'https://github.com/tangly1024/NotionNext/discussions'
         },
         {
-          title: '关于作者',
+          title: '邮箱',
           href: 'https://blog.tangly1024.com/about'
         }
       ]
@@ -257,19 +257,19 @@ const CONFIG = {
   PROXIO_FOOTER_PRIVACY_TERMS_OF_SERVICE_URL: '/terms-of-use',
 
   // 404页面的提示语
-  PROXIO_404_TITLE: '我们似乎找不到您要找的页面。',
-  PROXIO_404_TEXT: '抱歉！您要查找的页面不存在。可能已经移动或删除。',
-  PROXIO_404_BACK: '回到主页',
+  PROXIO_404_TITLE: '走丢辣！',
+  PROXIO_404_TEXT: '怎么办怎么办！！联系我或回首页看看其他的吧',
+  PROXIO_404_BACK: '回主页！立刻！马上！now！',
 
   // 页面底部的行动呼吁模块
   PROXIO_CTA_ENABLE: true,
-  PROXIO_CTA_TITLE: '与我建立联系',
-  PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
+  PROXIO_CTA_TITLE: '和我一起',
+  PROXIO_CTA_TITLE_2: '为你的宠物，打造一个真正自在的家',
   PROXIO_CTA_DESCRIPTION:
-    '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
+    '空间不止属于人，我们帮助你和宠物一起拥有更舒适、温暖、有爱的生活环境',
   PROXIO_CTA_BUTTON: true, // 是否显示按钮
   PROXIO_CTA_BUTTON_URL: '/about',
-  PROXIO_CTA_BUTTON_TEXT: '联系我',
+  PROXIO_CTA_BUTTON_TEXT: '立即预约设计',
 
   PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
   PROXIO_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
