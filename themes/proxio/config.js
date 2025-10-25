@@ -158,20 +158,20 @@ const CONFIG = {
   PROXIO_FAQ_TEXT_2: '我们收集了常见的用户疑问',
   PROXIO_FAQS: [
     {
-      q: 'NotionNext有帮助文档吗？',
-      a: 'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署'
+      q: '设计服务包含哪些内容？',
+      a: '包含前期沟通、空间测量、方案设计、材质建议、软装搭配与施工指导。我不只是画图，而是陪你把家一步步落地成型。'
     },
     {
-      q: '部署后要如何编写文章？',
-      a: '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>'
+      q: '设计费用怎么算？设计周期要多久？',
+      a: '设计费会根据面积、需求复杂度与宠物数量综合评估，报价透明，无隐藏费用。我只收取设计费，不从施工方或材料方抽成。设计周期通常为2–4周，视项目规模和沟通效率而定。'
     },
     {
-      q: '站点部署失败，更新失败？',
-      a: '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助'
+      q: '我不确定风格怎么办？',
+      a: '没关系，我会从你的生活方式、宠物习惯入手，通过问答、样例图与模型演示，帮你一起找到最自然的方向。'
     },
     {
-      q: '文章没有实时同步？',
-      a: '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决'
+      q: '能远程设计吗？',
+      a: '可以。我们可以线上沟通、视频会议与图纸交付，即使不在同一个城市，也能完整服务。'
     }
   ],
 
@@ -230,11 +230,11 @@ const CONFIG = {
           href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
         },
         {
-          title: '功能反馈',
+          title: 'bilibili',
           href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
         },
         {
-          title: 'bilibili',
+          title: '抖音',
           href: 'https://github.com/tangly1024/NotionNext/discussions'
         },
         {
