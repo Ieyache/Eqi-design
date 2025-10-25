@@ -37,30 +37,30 @@ const CONFIG = {
 
   // 特性区块
   PROXIO_FEATURE_ENABLE: true, // 特性区块开关
-  PROXIO_FEATURE_TITLE: '为什么选我',
-  PROXIO_FEATURE_TEXT_1: '我能让您的项目焕发光彩',
-  PROXIO_FEATURE_TEXT_2: '丰富的案例经验，专业的技术服务，优质的沟通效率',
+  PROXIO_FEATURE_TITLE: '我不追风格，也不卖噱头',
+  PROXIO_FEATURE_TEXT_1: '只关心一件事——当你们在家，能不能真的在休憩',
+  PROXIO_FEATURE_TEXT_2: '我相信设计有温度，我不贩卖风格 只分享生活，我的价值',
 
   // 特性1
   PROXIO_FEATURE_1_ICON_CLASS: 'fa-solid fa-stopwatch', // fas图标
   PROXIO_FEATURE_1_ICON_IMG_URL: '', // 图片图标选填，默认是fas图标，如果需要图片图标可以填写图片地址，示例/avatar.png
-  PROXIO_FEATURE_1_TITLE_1: '高效工作流程',
+  PROXIO_FEATURE_1_TITLE_1: '我相信设计有温度',
   PROXIO_FEATURE_1_TEXT_1:
-    '精简的设计流程确保快速交付，在紧迫的工期下仍能保证品质与细节不打折扣。',
+    '设计不是拍照片好看，是能陪你和宠物一起生活的日常。我习惯先听你讲故事，听你家猫喜欢晒太阳的角落、狗狗怕电吹风的声音、也听你工作回家时想要的那点安静。这些琐碎的小事，就是空间真正的样子。',
 
   PROXIO_FEATURE_2_ICON_CLASS: 'fa-solid fa-comments',
   PROXIO_FEATURE_2_ICON_IMG_URL: '',
-  PROXIO_FEATURE_2_TITLE_1: '协作式流程',
-  PROXIO_FEATURE_2_TEXT_1: '与你紧密合作，融合反馈意见，打造超越预期的设计',
+  PROXIO_FEATURE_2_TITLE_1: '我不贩卖风格 只分享生活',
+  PROXIO_FEATURE_2_TEXT_1: '我不靠装修套餐、也不做流水线项目。每一个案子，都是一次新的共居实验。有的偏现代、有的偏自然，但共同点只有一个：让人和宠物都能自在地生活下去。',
 
   PROXIO_FEATURE_3_ICON_CLASS: 'fa-solid fa-search',
   PROXIO_FEATURE_3_ICON_IMG_URL: '',
-  PROXIO_FEATURE_3_TITLE_1: '细节把控',
+  PROXIO_FEATURE_3_TITLE_1: '我的价值',
   PROXIO_FEATURE_3_TEXT_1:
-    '精益求精雕琢每个元素，确保成品精致统一，令人过目难忘',
+    '我不靠堆砌预算，也不靠套路报价。我只赚那些懂生活、爱宠物的人愿意为“更好的生活”付出的设计费。我希望客户不是甲方，而是同路人。',
 
   PROXIO_FEATURE_BUTTON_TEXT: '了解更多', // 按钮文字
-  PROXIO_FEATURE_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 按钮跳转
+  PROXIO_FEATURE_BUTTON_URL: 'https://www.eqisheji.cn/about', // 按钮跳转
 
   // 首页生涯区块
   PROXIO_CAREER_ENABLE: false, // 区块开关
@@ -213,11 +213,11 @@ const CONFIG = {
       menus: [
         {
           title: '品牌介绍',
-          href: 'https://blog.tangly1024.com'
+          href: 'https://www.eqisheji.cn/about'
         },
         {
           title: '设计理念',
-          href: 'https://www.tangly1024.com'
+          href: 'https://www.eqisheji.cn/about'
         }
       ]
     },
@@ -268,7 +268,7 @@ const CONFIG = {
   PROXIO_CTA_DESCRIPTION:
     '空间不止属于人，我们帮助你和宠物一起拥有更舒适、温暖、有爱的生活环境',
   PROXIO_CTA_BUTTON: true, // 是否显示按钮
-  PROXIO_CTA_BUTTON_URL: '/about',
+  PROXIO_CTA_BUTTON_URL: 'https://tally.so/r/3xB8pG',
   PROXIO_CTA_BUTTON_TEXT: '立即预约设计',
 
   PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
