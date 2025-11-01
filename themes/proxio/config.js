@@ -94,8 +94,8 @@ const CONFIG = {
     '越来越多的宠物家庭，选择与我们一起打造真正属于“你和它”的理想空间。从小型角落改造到全屋共生设计，我们用专业和共情陪伴每一次改变的开始。',
 
   // 用户测评处的跳转按钮
-  PROXIO_TESTIMONIALS_BUTTON_URL: '/about',
-  PROXIO_TESTIMONIALS_BUTTON_TEXT: '联系我',
+  PROXIO_TESTIMONIALS_BUTTON_URL: 'https://noteforms.com/forms/qraeye',
+  PROXIO_TESTIMONIALS_BUTTON_TEXT: '我也要评价',
 
   // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
   PROXIO_TESTIMONIALS_ITEMS: [
@@ -268,7 +268,7 @@ const CONFIG = {
   PROXIO_CTA_DESCRIPTION:
     '空间不止属于人，我们帮助你和宠物一起拥有更舒适、温暖、有爱的生活环境',
   PROXIO_CTA_BUTTON: true, // 是否显示按钮
-  PROXIO_CTA_BUTTON_URL: 'https://tally.so/r/wzpdz8',
+  PROXIO_CTA_BUTTON_URL: 'https://noteforms.com/forms/stqeg2',
   PROXIO_CTA_BUTTON_TEXT: '立即预约设计',
 
   PROXIO_POST_REDIRECT_ENABLE: true, // 默認開啟重定向
